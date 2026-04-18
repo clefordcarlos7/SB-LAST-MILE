@@ -1,0 +1,32 @@
+Understand Client–Server Architecture
+
+Components:
+Client (Browser)
+Example: Chrome, Edge
+Sends requests to the server and displays results
+
+Frontend (UI Layer)
+What users see (buttons, pages, forms)
+Runs inside the browser
+
+Backend (Server)
+Handles logic and requests
+Communicates with database
+
+Database (MongoDB – conceptual)
+Stores data (users, messages, records)
+
+
+
+Architecture Flow (Visualization)
+Client (Browser)
+      ↓
+Frontend (UI Layer)
+      ↓
+Backend (Server)
+      ↓
+Database (MongoDB)
+      ↑
+Backend sends response
+      ↑
+Frontend displays data to user
